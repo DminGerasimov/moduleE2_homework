@@ -1,5 +1,5 @@
 let x = true;
-result = typeof(x);
+let result = typeof(x);
 console.log(result);
 switch (result) {
     case ("string"):

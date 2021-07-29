@@ -1,6 +1,6 @@
 let arr = [1,1,1,1,1,1,1,1,"1",1,1,1,1,1,1,1,1,1,1,1,1];
-counter = arr.length;
-result = true;
+let counter = arr.length;
+let result = true;
 do {
   equality = (arr[0] === arr[counter - 1]) ? true:false;
   result = result && equality;
